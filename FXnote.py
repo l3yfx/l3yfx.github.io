@@ -32,7 +32,7 @@ def l3yfx(self):
 				Python
 			\FX concepts - Harness the power of houdini -> Realize nature/imagination in a efficient way.
 				3D data manipulation 
-					3D data(DataStructure) 
+					data(DataStructure) 
 						Custom attributes 
 						Point,vertex,primitive,(polygon),mesh,normal,UVs 
 						Volume 
@@ -40,7 +40,7 @@ def l3yfx(self):
 							Sign distance(SDF)
 							Vector field
 						PointCloud 
-					3D data processing
+					data manipulation
 						2 Dimensions
 							Proceduralism CRUD 3D data 
 							Simulation Dynamics 3D data 
@@ -48,7 +48,7 @@ def l3yfx(self):
 						Particles/Pyro/fluid/grains/crowds/finiteElementscloth/HairFur/vellum Oceans/wavesRipple
 						destruction wires/rigidBody/ Growth/peeling/disintergration 
 					Tool 
-						Vop/Vex 
+						Vop/Vex
 						AttributesTransfer 
 						solver
 						keyframe
@@ -57,7 +57,7 @@ def l3yfx(self):
 						Expression
 				Algorithmic design 
 					Sorting, Grouping
-					Iterative fractual 
+					Iterative, fractual 
 				Lighting concepts 
 				Shading concepts
 				Rendering concepts
