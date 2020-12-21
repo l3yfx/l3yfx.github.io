@@ -11,17 +11,21 @@ def l3yfx(self):
 
 	//Technical
 		def Foundation of 3D
-			\Computer science
-			3D Computer graphic/theory 
-			CG field Mathmatics/Physics
-			Problem solving
-			3D tech 
-				Modeling 
-				Dynamics
-				Texturing
-				Lighting
-				Rendering
-				Compositing
+                        Nature
+                            Math/Physics
+                        Computer science
+                            3D Computer graphic/theory
+                                CG field
+                                    Mathmatics/Physics
+                                    algorithm
+                                    Problem solving                        
+                                3D tech
+                                    Modeling
+                                    Dynamics
+                                    Texturing
+                                    Lighting
+                                    Rendering
+                                    Compositing  
 		def Realization of 3D 			
 			\3D software/framwork/language 
 			CG industry Pipeline
@@ -32,21 +36,27 @@ def l3yfx(self):
 				Python
 			\FX concepts - Harness the power of houdini -> Realize nature/imagination in a efficient way.
 				3D data manipulation 
-					data(DataStructure) 
-						Custom attributes 
-						Point,vertex,primitive,(polygon),mesh,normal,UVs 
-						Volume 
-							Scalar field(density) 
-							Sign distance(SDF)
-							Vector field
-						PointCloud 
-					data manipulation
-						2 Dimensions
-							Proceduralism CRUD 3D data 
-							Simulation Dynamics 3D data 
-					3D FX Field/catergories
-						Particles/Pyro/fluid/grains/crowds/finiteElementscloth/HairFur/vellum Oceans/wavesRipple
-						destruction wires/rigidBody/ Growth/peeling/disintergration 
+					data(DataStructure)
+					    Custom attributes
+					    Point,vertex,primitive,(polygon),mesh,normal,UVs
+						Volume
+						    Scalar field(density)
+						    Sign distance(SDF)
+						    Vector field
+						PointCloud
+					data(attributes) manipulation(Flow control)
+					    Dimensions
+						Proceduralism CRUD 3D data
+						Simulation Dynamics 3D data
+					    FX Field/catergories:
+						Particles/Pyro/fluid/grains/crowds/finiteElements/cloth/HairFur/vellum
+						Oceans/wavesRipple
+						destruction
+						wires/rigidBody/
+						Growth/peeling/disintergration
+					data organzation
+					    Custom function
+					    Digital asset/tool/plugin
 					Tool 
 						Vop/Vex
 						AttributesTransfer 
