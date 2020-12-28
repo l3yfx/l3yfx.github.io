@@ -11,21 +11,21 @@ def l3yfx(self):
 
 	//Technical
 		def Foundation of 3D
-            Nature
-                Math/Physics
-            Computer science
-                3D Computer graphic/theory
-                    CG field
-                        Mathmatics/Physics
-                        algorithm
-                        Problem solving                        
-                    3D tech
-                        Modeling
-                        Dynamics
-                        Texturing
-                        Lighting
-                        Rendering
-                        Compositing
+            		Nature
+                		Math/Physics
+            	Computer science
+			3D Computer graphic/theory
+			    CG field
+				Mathmatics/Physics
+				algorithm
+				Problem solving                        
+			    3D tech
+				Modeling
+				Dynamics
+				Texturing
+				Lighting
+				Rendering
+				Compositing
 		def Realization of 3D 			
 			3D software/framwork/language 
 			CG industry Pipeline
@@ -61,14 +61,24 @@ def l3yfx(self):
 						Sidefx designed Node
 						Python
 						Expression
-				Algorithmic design 
+				3D Algorithmic design 
 					# loop,group,offset
 					Math
 						Sorting, Grouping, Iterative, Fractual, Noise
 					Performance optimization
-
+				3D data Organzation
+                                	Digital asset/tool/plugin
 				Lighting concepts 
 				Shading concepts
+					Procedual shading
+						Principled shader
+						Displacement
+						Micro surface
+				    	Create/assign Material
+				   		Apply map
+						Texture
+						Normal
+						Bump					
 				Rendering concepts
 				Compositing concepts
 		def R&D_FX 
