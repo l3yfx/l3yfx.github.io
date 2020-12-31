@@ -1,0 +1,72 @@
+20201022L:
+	Trail compute velocity
+	Lighting
+		HDRI
+	Render
+		Motion blur
+		Depth of field
+	Dynamics
+		Particles impulse
+		Collision behavior
+		Flip solver
+	Texturing
+		Color.co
+		glass shader
+	FX
+		Frame control(EX. From rigiBody to flip)
+
+20201123:
+	Volume modeling
+	Vex function
+	PointCloud
+	Solver
+	Attributes control
+20201124
+	Remesh
+	point relax
+20201125
+	Growth fx
+		-Solver
+		-Volume
+20201126
+	Learn topics
+		-Main stream FX
+		-Algorithmic design
+		-3D fundemental & Node & VEX
+20201203
+	3D FX -> Algorithmic design + 3D data manipulation
+
+20201228
+	Shading cpncepts
+		Custom shader
+		lighting
+20201229
+	Attributes marker visualizer
+	Vex parallel processing
+	Attribute concepts
+		attribute blur
+		attribute promote
+		Handpaint
+	Voronoise
+20201230
+	Cable/Wire motion/lighting spark(Attribute vector to float to vector)
+	Attribute from map
+	point orient
+	
+20201231
+	plan
+		SOP master plan
+			CGwiki daily practice
+		FX challenge
+			FX learn
+		Shading practice
+			Learn shading workflow
+		Rendering
+			Renderman
+		CG knowledge
+			CG related concepts
+	Objects packing
+		Popgrains(avoiding geo penertration)
+	Visualize sop
+	*Promoting parameter of VOP for faster performance.
+	
