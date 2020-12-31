@@ -51,13 +51,22 @@ def l3yfx(self):
                                         VEX/VOP processing
                                     Functions
                                         Operater
-                                            Sop, POP, DOP, VOP
+                                            SOP, VOP, POP, DOP
                                         Low-lev
                                             AttributeTransfer, primuv, minpos....
                                         High-lev
                                             Particle, pyro, flip, vellum....
-                                        Custom fuction  
-                                Data organzation
+                                        Custom fuction
+                                    Organization
+                                        Grouping
+                                            Selection
+                                            Pattern
+                                            Expression
+                                        Referencing
+                                            Channel/Parameter expression
+                                        Sorting
+                                        Filtering
+                                Data arrangement
                                     Arrange data network into a procedural environment.
                             Algorithmic design
                                 Constructing data flow for specific fx.
