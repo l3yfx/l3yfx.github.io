@@ -3,13 +3,13 @@ def l3yfx(self):
 	FX = 3D.Data_manipulation 
 	VFX = FX() + Composition() 
 	
-	-Essence, process, innerbloom 
+	# Essence, process, innerbloom 
 		Essence 
 			Nature inspired 
 		Process
 			Uterlize Computer science to create 3D visual.
 
-	//Technical
+	# Technical
 		def Foundation of 3D
             Nature
                 Math/Physics
@@ -75,4 +75,4 @@ def l3yfx(self):
 			FX R&D(Practice) FX() + Flow() + Score() 
 			FX() = Basic_idea + Advance_development 
 			Flow() = Combiine_FX(Motion, movement, tension)
-			Score() = Look_dev() Innerbloom
+			Score() = Look_dev() Innerbloom 
