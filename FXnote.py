@@ -1,3 +1,16 @@
+def l3y(self):
+	mushin
+	Try&error
+		Problem solving
+			Breakdown challenge
+				Making question
+					Solved
+				Try/Debug
+					Solved
+	Reckless
+		Feel/push the limit.
+		Used things in the way that are not used to be use.
+
 def l3yfx(self):
     3D_Concepts = CG_knowledge, software, workflow        
     3D = Modeling, animation, texture, lighting, rendering
@@ -83,6 +96,7 @@ def l3yfx(self):
                                             Expression
                                     Loop
                                     Copy/Instancing
+                                    Ramp
                                 Network(Proceduralism)
                                     Parameter/Channel Referencing
                                     Parameter/Channel expression
@@ -123,6 +137,7 @@ def l3yfx(self):
                             Texture
                             Normal
                             Bump
+                        White papers
                     3D Rendering concepts
                     3D Compositing concepts
 
