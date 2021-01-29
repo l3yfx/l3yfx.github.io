@@ -14,7 +14,6 @@
 		glass shader
 	FX
 		Frame control(EX. From rigiBody to flip)
-
 20201123:
 	Volume modeling
 	Vex function
@@ -35,7 +34,6 @@
 		-3D fundemental & Node & VEX
 20201203
 	3D FX -> Algorithmic design + 3D data manipulation
-
 20201228
 	Shading cpncepts
 		Custom shader
@@ -52,7 +50,6 @@
 	Cable/Wire motion/lighting spark(Attribute vector to float to vector)
 	Attribute from map
 	point orient
-	
 20201231
 	plan
 		SOP master plan
@@ -69,4 +66,131 @@
 		Popgrains(avoiding geo penertration)
 	Visualize sop
 	*Promoting parameter of VOP for faster performance.
-	
+20210105
+		Refine fxnote.
+		Flower bloosm workflow.
+20210106
+	Refine plan
+		CG knowledge
+		FX dev
+			From Resource
+				Concepts
+				Practice
+			Pracitice
+		Look dev
+			Side workflow
+20210107
+	Vex for algorithmic design
+		Group basic
+		Parameter basic
+20210108
+	Vex for algorithmic design
+		Parameter basic
+		Variable basic
+	Custom visualizer
+20210109/20210110
+	Crassula project
+		Prodedural leaves modeling
+		Time offset tips
+		For-each instancing
+20210111
+	Timeoffset instance
+	Copy/Instancing
+20210112
+	Point a vector along curve
+		Polyframe (Generate tangent vector)
+		Facet
+		Point sop
+	learn
+		Weapon fx,Magic fx,Fire/Pyro/Smoke,Water/fluid,Grains,Destruction,Explosion
+	JoyOfVex
+		7 -> minpos, nearpoint
+		8 -> noise control
+		9 -> dot/cross/Vector operation
+20210113
+	JoyOfVex
+		10 -> relpointbbox
+	Reflection
+		Reckless - Use things in the way that are not used to be.
+			Utilze UV data and Frame factor to transform data.
+20210114
+	Line
+		Sweep
+		Noise offset to transform @P.
+	JoyOfVex
+		11 -> If statement	
+	Refine point/vertex/primitive/normal/UV concepts
+		Point/vertex/primitive
+		Edges/prims
+			end sop
+20210118
+	JoyOfVex
+		12 -> Array, nearpoint()
+		13 -> Foreach, For loop
+		14 -> Create geometry
+20210120
+	BenWatt inspired
+		Uv Xform technique
+			Create U attribute in resample node
+		Knitting technique
+			resample
+			dispalace
+			Position mix
+		Ramp technique
+			Middle out
+	Things to try
+		Position mix vop for knitting
+20210121
+	joy of vex
+		15,16 -> copy & instance attribute
+2021012324
+	Knitting effecr inspired by Ben.
+20210125
+	Surface morph concept
+20210126
+	Venus project started.
+	joy of vex
+		17 -> orient
+20210127
+	Road to SOP master
+		Procedural modeling
+		FX
+			Motion
+				Data manipulation
+				Attribute manipulation
+				Function
+			Time
+				Time offset
+				Solver
+			Layer
+	Road to DOP master(comming soon)
+	Road to Render master(comming soon)
+	Venus project started.
+		particle flow fx (Adam swaab inspired)
+20210128
+	Volume/OpenVDB
+		OpenVDB houdini adoption hip file.
+		OpenVDB paper (KEN MUSETH).
+		Siggraph OpenVDB course.
+	Vex for algorithmic design Targets
+		Volume
+		Geometry function
+		Noise
+		Solver
+	Volume
+		SDF
+			Surface modeling.
+		FOG
+			Break polygonal toology limits.
+20210129
+	Vex for algorithmic design Targets
+		Volume
+			Visualizer
+				Volume visualization (For density overview)
+				Volume Trail (For vel direction)
+			Function
+				VolumeSample/VolumeSamplev
+				Volumepostoindex/Volumeindextopos
+			Debug
+				addpoint/setpoint attribute
+				
