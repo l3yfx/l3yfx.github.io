@@ -1,48 +1,57 @@
-    def l3y(self):
-        Essence
-        Process
-            mushin
-            Try&error
-                Problem solving
-                    Breakdown challenge
-                        Making question
-                            Solved
-                        Try/Debug
-                            Solved
-            Reckless
-                Feel/push the limit.
-                Used things in the way that are not used to be use.
-        Innerbloom
-            ElonMusk
-            GeorgeHotz
+def l3y(self):
+    Essence
+    	MasterMind
+	        mushin
+	        Try&error
+	            Problem solving
+	                Breakdown challenge
+	                    Making question
+	                        Solved
+	                    Try/Debug
+	                        Solved
+                Error handling
+                    Skateboarding concepts
+	        Reckless
+	            Feel/push the limit.
+	            Used things in the way that are not used to be use.    		
+    Process
+    	Analyze
+    		Breakdown target subject.
+    	Develop
+    		Learn the process.
+    	Refine
+    		BetterFasterStronger.
+    Innerbloom
+        ElonMusk
+        GeorgeHotz
+
+def l3ysound(self):
+    synth() = shape + timbre + pitch
+    flow() = motions + movement + tension
+    score() = arrangement + layering + mixing
+    l3y_process = synth() + flow() + score()
     
-    def l3ysound(self):
-        synth() = shape + timbre + pitch
-        flow() = motions + movement + tension
-        score() = arrangement + layering + mixing
-        l3y_process = synth() + flow() + score()
-        
-        -Essence, process, vibe
-        
-        # can be feel but not heard.
-        # from rough/skeleton to solid fine tune.
-        # ability to forsee.
-        # find the process.
-    def l3yhack(self):
-        # cs
-        cs() = computer, program, OS
-        computer = Processor(instruction), RAM(data)
-        program = "input -> system -> output"
-        # coding
-        coding() = programming + framework 
-        programming = programming_language, algorithm/data_structure
-        programming_language = syntax, library, OOP(data, control_flow, organzation)
-        # ps
-        problem_solving() = framing, realization
-        
-        hack_process = cs() + coding() + problem_solving()
-        
-        garbageCollection(?)
+    -Essence, process, vibe
+    
+    # can be feel but not heard.
+    # from rough/skeleton to solid fine tune.
+    # ability to forsee.
+    # find the process.
+def l3yhack(self):
+    # cs
+    cs() = computer, program, OS
+    computer = Processor(instruction), RAM(data)
+    program = "input -> system -> output"
+    # coding
+    coding() = programming + framework 
+    programming = programming_language, algorithm/data_structure
+    programming_language = syntax, library, OOP(data, control_flow, organzation)
+    # ps
+    problem_solving() = framing, realization
+    
+    hack_process = cs() + coding() + problem_solving()
+    
+    garbageCollection(?)
     
 def l3yfx(self):
     3D_Concepts = CG_knowledge, software, workflow        
@@ -57,7 +66,7 @@ def l3yfx(self):
         Nature inspired
     Process
     # Technical
-        Uterlize Computer science to create 3D visual.
+        Utilize Computer science to create 3D visual.
             Fundemental(Technical)
                 def Foundation of 3D Computer graphic
                     Nature
@@ -71,15 +80,15 @@ def l3yfx(self):
                         3D Computer graphic/theory
                             CG field
                                 Mathmatics/Physics
-                                algorithm
-                                Problem solving                     
+                                algorithm                  
                             3D tech
                                 Modeling
-                                Dynamics
+                                animation
                                 Texturing
                                 Lighting
                                 Rendering
-                                Compositing         
+                                Compositing
+            Process(Practice)    
                 def Realization of 3D Computer graphic/theory
                     3D language/framwork/software
                         CG industry
@@ -89,8 +98,8 @@ def l3yfx(self):
                             Wrangle
                             OP
                             Python
-                    3D FX concepts - Harness the power of houdini -> Realize nature/imagination in a efficient way.
-                        Data flow
+                    3D FX R&D concepts - Harness the power of houdini -> Realize nature/imagination in a efficient way.
+                        Data flow -> Controlling data is the key.
                             Data structure
                                 Data types
                                     Low-lev
@@ -102,6 +111,7 @@ def l3yfx(self):
                                        				Point,vertex,primitive,detail                                            
                                     			Reserved/Custom attributes
                                         			P,Normal,UVs,Vel
+                                        Primitive
                                             Bezier/NURBS
                                             Volume
                                                 Scalar field(density)
@@ -132,32 +142,32 @@ def l3yfx(self):
                                     Ramp
                                     AttributeTransfer
                                         UV technique
-                                Network(Proceduralism)
+                                Stream(Proceduralism)
                                     Parameter/Channel Referencing
                                     Parameter/Channel expression
                                         Hscript expression
                                         Global/Local variable
                                         Geo attributes                                    
-                            Data stream    
+                            Data organzation    
                                 File system
                                     Cache to disk
                                 Compile blocks
                                 Pipeline
                         Algorithmic design
-                            Constructing data flow for specific fx.
-                                #Sorting, searching, filtering, Grouping data.
-                                Motion (Effect based)
-                                    Dimensions
-                                        Proceduralism CRUD 3D data
-                                        Simulation Dynamics 3D data 
-                                Flow (Time based)
-                                    Frame control
-                                Tension (Layer based)
-                            Implement mathmatical concepts/theory for R&D process. 
+                            Constructing data flow for specific fx in a algorithmic way.
+                                    Utilize each data structures features
+                                    Write algorithm to achieve result.
+                                        Motion (Effect based)                                        
+                                            Dimensions
+                                                Proceduralism CRUD 3D data
+                                                Simulation Dynamics 3D data 
+                                        Time (Horizontal based)
+                                            Frame control
+                                        Layer (Vertical based)
+                            Implement realWorld/algorithmic/mathmatical/physics concepts/papers/theory for R&D process.
                                 Iterative, Fractual
-                            Refine data flow process for performance optimaization                            
-                        
-                        Data Organzation
+                            Refine data flow process for performance optimaization
+                        Organzation
                             Create digital asset for speeding up workflow.
                             Create tool/plugin for optimize workflow.
                             
@@ -174,13 +184,12 @@ def l3yfx(self):
                             Bump
                         White papers
                     3D Rendering concepts
-                    3D Compositing concepts
-                        
-                        
-                    def FX R&D
-                        FX R&D(Practice)
-                            FX() + Flow() + Score()
-                            FX() = Basic_idea + Advance_development
-                            Flow() = Combiine_FX(Motion, movement, tension)
-                            Score() = Look_dev()
+                    3D Compositing concepts                             
+            # def FX R&D
+            	# FX = CS + R&D + Look_dev
+                # FX R&D(Practice)
+                #     FX() + Flow() + Score()
+                #     FX() = Basic_idea + Advance_development
+                #     Flow() = Combiine_FX(Motion, movement, tension)
+                #     Score() = Look_dev()
         Innerbloom
