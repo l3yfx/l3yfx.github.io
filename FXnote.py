@@ -162,7 +162,7 @@ def l3yfx(self):
                                                 Proceduralism CRUD 3D data
                                                 Simulation Dynamics 3D data 
                                         Time (Horizontal based)
-                                            Frame control
+                                            Frame control(timeshift)
                                         Layer (Vertical based)
                             Implement realWorld/algorithmic/mathmatical/physics concepts/papers/theory for R&D process.
                                 Iterative, Fractual
