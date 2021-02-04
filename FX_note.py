@@ -13,3 +13,28 @@ class FX R&D
         Vector field Vel #Project_ParticleFluid
         POP force #Project_Cradence
         
+FXnote_Detail
+Volume
+    Utilization
+        Scalar field(density)
+            Volumemetric modeling
+        Sign distance(SDF)
+            Surface modeling
+        Vector field
+            Force
+    Visualizer
+        Volume visualization (For density overview)
+        Volume Trail (For vel direction)
+        vdbvisualizertree
+        volumeslice
+    Function
+        VolumeSample/VolumeSamplev
+        Volumepostoindex/Volumeindextopos
+        attributeFromVolume
+        vdbAnalysis
+            Gradient
+            CPT
+        Volume SOP
+        Volume Vop
+    Debug
+        addpoint/setpoint attribute
