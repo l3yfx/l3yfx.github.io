@@ -10,7 +10,9 @@ def l3y(self):
 	                    Try/Debug
 	                        Solved
                 Error handling
-                    Skateboarding concepts
+                    # Skateboarding concepts
+                    Learn to fail.
+                    CBS
 	        Reckless
 	            Feel/push the limit.
 	            Used things in the way that are not used to be use.    		
@@ -110,7 +112,7 @@ def l3yfx(self):
                                     			Context
                                        				Point,vertex,primitive,detail                                            
                                     			Reserved/Custom attributes
-                                        			P,Normal,UVs,Vel
+                                        			P,Normal,UVs,V
                                         Primitive
                                             Bezier/NURBS
                                             Volume
@@ -119,13 +121,16 @@ def l3yfx(self):
                                                 Vector field
                                             PointCloud
                             Data manipulation
+                                Network
+                                    point,vertex,primitive,detail,volume
+                                        normal,uv
                                 Functions
                                     Operater
                                         SOP, VOP, POP, DOP
                                     Low-lev
                                         nearpoint, primuv, minpos, length,....
                                     High-lev
-                                        Particle, pyro, flip, vellum....
+                                        Particle, pyro, flip, vellum, SDF,....
                                     Custom fuction
                                         Sorting
                                         Filtering
