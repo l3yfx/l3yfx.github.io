@@ -4,7 +4,7 @@ class FX_Res
             Efficient memory and fast data access.
             No topology restrictions.
         Context
-            *Manipulate voxel data to create 3D mesh(fog,smoke,fire,fluid,fracture,abstractGeo)
+            *Manipulate voxel data to create 3D mesh(fog,smoke,fire,fluid,fracture,meshing)
                 # vdbAnalysis(gradient,cpt,.....)                  
             *Store data in voxel to tansfer data.
                 # attributeFromVolume
@@ -29,8 +29,22 @@ class FX_Res
             vdbvisualizertree
             volumeslice
         Debug
-            addpoint/setpoint attribute        
+            addpoint/setpoint attribute
+        Rendering
+            Mantra rendering Isosurface(SDF volume)
+    def VDB_Meshing
+		VDB vs Houdini standard volume
+			VDBFrom polygona
+				Exterior/Interior band -> Data caculation efficiency, "Sparse data structure".
+				Surface attribute -> transfer attribute to volume data
+			VDBSmoothSDB -> Smoothing surface with various algorithm.
+			VDBCombine -> Boolean operation
+			Houdini standard volume has exclusive toolset/openCL function.
+		Volume boolean
+			Volume modeling
+				Voxel size decrease to half of the smallest feature of geometry.        
 class FX_Dev
+    Mindset = hard coded vs tool usage
 	def Growth
     # 1 way transform.
         Copy&Instance #Project_Crassula
