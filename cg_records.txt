@@ -1,0 +1,236 @@
+20201022L:
+	Trail compute velocity
+	Lighting
+		HDRI
+	Render
+		Motion blur
+		Depth of field
+	Dynamics
+		Particles impulse
+		Collision behavior
+		Flip solver
+	Texturing
+		Color.co
+		glass shader
+	FX
+		Frame control(EX. From rigiBody to flip)
+20201123:
+	Volume modeling
+	Vex function
+	PointCloud
+	Solver
+	Attributes control
+20201124
+	Remesh
+	point relax
+20201125
+	Growth fx
+		-Solver
+		-Volume
+20201126
+	Learn topics
+		-Main stream FX
+		-Algorithmic design
+		-3D fundemental & Node & VEX
+20201203
+	3D FX -> Algorithmic design + 3D data manipulation
+20201228
+	Shading cpncepts
+		Custom shader
+		lighting
+20201229
+	Attributes marker visualizer
+	Vex parallel processing
+	Attribute concepts
+		attribute blur
+		attribute promote
+		Handpaint
+	Voronoise
+20201230
+	Cable/Wire motion/lighting spark(Attribute vector to float to vector)
+	Attribute from map
+	point orient
+20201231
+	plan
+		SOP master plan
+			CGwiki daily practice
+		FX challenge
+			FX learn
+		Shading practice
+			Learn shading workflow
+		Rendering
+			Renderman
+		CG knowledge
+			CG related concepts
+	Objects packing
+		Popgrains(avoiding geo penertration)
+	Visualize sop
+	*Promoting parameter of VOP for faster performance.
+20210105
+		Refine fxnote.
+		Flower bloosm workflow.
+20210106
+	Refine plan
+		CG knowledge
+		FX dev
+			From Resource
+				Concepts
+				Practice
+			Pracitice
+		Look dev
+			Side workflow
+20210107
+	Vex for algorithmic design
+		Group basic
+		Parameter basic
+20210108
+	Vex for algorithmic design
+		Parameter basic
+		Variable basic
+	Custom visualizer
+20210109/20210110
+	Crassula project
+		Prodedural leaves modeling
+		Time offset tips
+		For-each instancing
+20210111
+	Timeoffset instance
+	Copy/Instancing
+20210112
+	Point a vector along curve
+		Polyframe (Generate tangent vector)
+		Facet
+		Point sop
+	learn
+		Weapon fx,Magic fx,Fire/Pyro/Smoke,Water/fluid,Grains,Destruction,Explosion
+	JoyOfVex
+		7 -> minpos, nearpoint
+		8 -> noise control
+		9 -> dot/cross/Vector operation
+20210113
+	JoyOfVex
+		10 -> relpointbbox
+	Reflection
+		Reckless - Use things in the way that are not used to be.
+			Utilze UV data and Frame factor to transform data.
+20210114
+	Line
+		Sweep
+		Noise offset to transform @P.
+	JoyOfVex
+		11 -> If statement	
+	Refine point/vertex/primitive/normal/UV concepts
+		Point/vertex/primitive
+		Edges/prims
+			end sop
+20210118
+	JoyOfVex
+		12 -> Array, nearpoint()
+		13 -> Foreach, For loop
+		14 -> Create geometry
+20210120
+	BenWatt inspired
+		Uv Xform technique
+			Create U attribute in resample node
+		Knitting technique
+			resample
+			dispalace
+			Position mix
+		Ramp technique
+			Middle out
+	Things to try
+		Position mix vop for knitting
+20210121
+	joy of vex
+		15,16 -> copy & instance attribute
+2021012324
+	Knitting effecr inspired by Ben.
+20210125
+	Surface morph concept
+20210126
+	Venus project started.
+	joy of vex
+		17 -> orient
+20210127
+	Road to SOP master
+		Procedural modeling
+		FX
+			Motion
+				Data manipulation
+				Attribute manipulation
+				Function
+			Time
+				Time offset
+				Solver
+			Layer
+	Road to DOP master(comming soon)
+	Road to Render master(comming soon)
+	Venus project started.
+		particle flow fx (Adam swaab inspired)
+20210128
+	Volume/OpenVDB
+		OpenVDB houdini adoption hip file.
+		OpenVDB paper (KEN MUSETH).
+		Siggraph OpenVDB course.
+	Vex for algorithmic design Targets
+		Volume
+		Geometry function
+		Noise
+		Solver
+	Volume
+		SDF
+			Surface modeling.
+		FOG
+			Break polygonal toology limits.
+20210129
+	Vex for algorithmic design Targets
+		Volume
+			Visualizer
+				Volume visualization (For density overview)
+				Volume Trail (For vel direction)
+			Function
+				VolumeSample/VolumeSamplev
+				Volumepostoindex/Volumeindextopos
+			Debug
+				addpoint/setpoint attribute
+20210201
+	Refine FX.py
+	Add FX_note.py
+20210203
+	VDB: High-Resolution Sparse Volumes with Dynamic Topology by KEN MUSETH
+	VDB example file.
+20210204
+	Learn targets:
+		Entagma volume 101
+		Entagma render 101
+		Entagma chaldni effect with vex
+20210205
+	Entagma Volume 101
+		Volume basics
+			Volume creation.
+			VolumeVisualization node -> view volume, create effect.
+		Vector volumes
+			VolumeVop to create V(geo attribute) attribute.
+			VolumeTrail for visualizing curlnoise trail.
+		Signed Distance Field
+			Signed(+-) Distance(distance to surface) Field(scalar field)
+			IsoOffset(Slow,error in generation) vs VDB
+		VDB vs Houdini standard volume
+			VDBFrom polygona
+				Exterior/Interior band -> Data caculation efficiency, "Sparse data structure".
+				Surface attribute -> transfer attribute to volume data
+			VDBSmoothSDB -> Smoothing surface with various algorithm.			
+			Houdini standard volume has exclusive toolset/openCL function.
+		Volume boolean
+			Volume modeling
+				VDBCombine -> Boolean operation
+				Voxel size decrease to half of the smallest feature of geometry.
+		Volume gradient
+			Direction to the surface.
+			VDBSmooth to blend/soften gradient.
+		SDF reshape
+			Erosion
+			Dilation
+		Organic cells
+			VDBAdvect + Solver
+			Mantra rendering Isosurface(SDF volume)
