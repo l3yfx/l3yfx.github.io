@@ -22,7 +22,10 @@ class FX_Res
             vdbAnalysis
                 Gradient
                 CPT
-            Volume Vop                
+            Volume Vop
+            vdbactivate
+            vdbAdvect
+            SDF collider        
         Visualizer
             Volume visualization (For density overview)
             Volume Trail (For vel direction)
@@ -32,29 +35,52 @@ class FX_Res
             addpoint/setpoint attribute
         Rendering
             Mantra rendering Isosurface(SDF volume)
-    def VDB_Meshing
-		VDB vs Houdini standard volume
-			VDBFrom polygona
-				Exterior/Interior band -> Data caculation efficiency, "Sparse data structure".
-				Surface attribute -> transfer attribute to volume data
-			VDBSmoothSDB -> Smoothing surface with various algorithm.
-			VDBCombine -> Boolean operation
-			Houdini standard volume has exclusive toolset/openCL function.
-		Volume boolean
-			Volume modeling
-				Voxel size decrease to half of the smallest feature of geometry.        
+        # VDB_Meshing
+    		VDB vs Houdini standard volume
+    			VDBFrom polygon
+    				Exterior/Interior band -> Data caculation efficiency, "Sparse data structure".
+    				Surface attribute -> transfer attribute to volume data
+    			VDBSmoothSDB -> Smoothing surface with various algorithm.
+    			VDBCombine -> Boolean operation
+    			Houdini standard volume has exclusive toolset/openCL function.
+    		Volume boolean
+    			Volume modeling
+    				Voxel size decrease to half of the smallest feature of geometry.        
+        # VDB_VectorField
+            SDF collision
+    def POP
+    def DOP
 class FX_Dev
     Mindset = hard coded vs tool usage
 	def Growth
     # 1 way transform.
-        Copy&Instance #Project_Crassula
-        Noise + @P transform #Project_SnakeIsland
-        Move & trail #Project_NikeFlyknit
-        VDB modeling #Project_Organic
+        Copy&Instance
+            #Dev_Crassula
+        Noise + @P transform
+            #Dev_SnakeIsland
+        Move & Trail
+            #Project_NikeFlyknit
+        VDB modeling/advecting
+            #Dev_Organic
     def Morph
     # 2 ways transform.          
-        UV xform #Project_LineMorph #Project_Venus
-        @P mix function #Project_Knitting
+        UV xform 
+                #Dev_LineMorph
+                #Dev_Venus
+        @P mix function
+            #Dev_Knitting
     def Magic
-        Vector field Vel & SDF #Project_ParticleFluid
-        POP force #Project_Cradence
+        Vector field Vel & SDF
+            #Dev_MagicFluid
+        POP Force
+            #Dev_Cradence
+
+class FX_Project
+    def FxBorg
+        Create FxBorg with dev effects.
+            3D model rigging/animating
+            Camera tracking(Fusion)
+            Rendering(Houdini x Redshift)
+            Compositing(Fusion)
+            Color grading(Resolve)
+
