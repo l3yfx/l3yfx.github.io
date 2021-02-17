@@ -9,6 +9,10 @@ def l3y(self):
 	                        Solved
 	                    Try/Debug
 	                        Solved
+                Error handling
+                    # Skateboarding concepts
+                    Learn to fail.
+                    CBS
 	        Reckless
 	            Feel/push the limit.
 	            Used things in the way that are not used to be use.    		
@@ -22,6 +26,7 @@ def l3y(self):
     Innerbloom
         ElonMusk
         GeorgeHotz
+        Olegcricket
 
 def l3ysound(self):
     synth() = shape + timbre + pitch
@@ -78,11 +83,10 @@ def l3yfx(self):
                         3D Computer graphic/theory
                             CG field
                                 Mathmatics/Physics
-                                algorithm
-                                Problem solving                     
+                                algorithm                  
                             3D tech
                                 Modeling
-                                Dynamics
+                                animation
                                 Texturing
                                 Lighting
                                 Rendering
@@ -92,11 +96,15 @@ def l3yfx(self):
                     3D language/framwork/software
                         CG industry
                         Pipeline
-                        Workflow(Using Houdini/Production efficieny)
-                            Expression
-                            Wrangle
-                            OP
-                            Python
+                        Houdini(3D framework to user interdace)
+                        	HDA
+                        		User interface (Type properties)
+                        			Action script(Python)
+	                        Workflow(Using Houdini/Production efficieny)
+	                            Expression
+	                            Wrangle
+	                            OP
+	                            Python
                     3D FX R&D concepts - Harness the power of houdini -> Realize nature/imagination in a efficient way.
                         Data flow -> Controlling data is the key.
                             Data structure
@@ -109,7 +117,8 @@ def l3yfx(self):
                                     			Context
                                        				Point,vertex,primitive,detail                                            
                                     			Reserved/Custom attributes
-                                        			P,Normal,UVs,Vel
+                                        			P,Normal,UVs,V,pscale
+                                        Primitive
                                             Bezier/NURBS
                                             Volume
                                                 Scalar field(density)
@@ -117,13 +126,16 @@ def l3yfx(self):
                                                 Vector field
                                             PointCloud
                             Data manipulation
+                                Network
+                                    point,vertex,primitive,detail,volume
+                                        normal,uv
                                 Functions
                                     Operater
                                         SOP, VOP, POP, DOP
                                     Low-lev
                                         nearpoint, primuv, minpos, length,....
                                     High-lev
-                                        Particle, pyro, flip, vellum....
+                                        Particle, pyro, flip, vellum, SDF,....
                                     Custom fuction
                                         Sorting
                                         Filtering
@@ -137,7 +149,7 @@ def l3yfx(self):
                                             Expression
                                     Loop
                                     Copy/Instancing
-                                    Ramp
+                                    Ramp/fit
                                     AttributeTransfer
                                         UV technique
                                 Stream(Proceduralism)
@@ -153,21 +165,26 @@ def l3yfx(self):
                                 Pipeline
                         Algorithmic design
                             Constructing data flow for specific fx in a algorithmic way.
-                                #Sorting, searching, filtering, Grouping data.
-                                Motion (Effect based)
-                                    Dimensions
-                                        Proceduralism CRUD 3D data
-                                        Simulation Dynamics 3D data 
-                                Time (Horizontal based)
-                                    Frame control
-                                Layer (Vertical based)
-                            Implement algorithmic/mathmatical concepts/papers/theory for R&D process.
+                                    Utilize each data structures features
+                                    Write algorithm to achieve result.
+                                        Motion (Effect based)                                        
+                                            Dimensions
+                                                Proceduralism CRUD 3D data
+                                                Simulation Dynamics 3D data 
+                                        Time (Horizontal based)
+                                            Frame control(timeshift)
+                                        Layer (Vertical based)
+                            Implement realWorld/algorithmic/mathmatical/physics concepts/papers/theory for R&D process.
                                 Iterative, Fractual
                             Refine data flow process for performance optimaization
                         Organzation
                             Create digital asset for speeding up workflow.
                             Create tool/plugin for optimize workflow.
                             
+                    3D rigging concepts
+                    	Bones placing
+                    	IK/FK system
+                    	Proxy geometry
                     3D Lighting concepts
                     3D Shading concepts
                         Procedual shading
