@@ -13,6 +13,7 @@ def l3y(self):
                     # Skateboarding concepts
                     Learn to fail.
                     CBS
+                Start simple, end epic.
 	        Reckless
 	            Feel/push the limit.
 	            Used things in the way that are not used to be use.    		
@@ -26,12 +27,14 @@ def l3y(self):
     Innerbloom
         ElonMusk
         GeorgeHotz
+        Olegcricket
 
 def l3ysound(self):
+    sample() = sound, flow, vibe
     synth() = shape + timbre + pitch
     flow() = motions + movement + tension
     score() = arrangement + layering + mixing
-    l3y_process = synth() + flow() + score()
+    l3y_process = sample() + synth() + flow() + score()
     
     -Essence, process, vibe
     
@@ -95,38 +98,41 @@ def l3yfx(self):
                     3D language/framwork/software
                         CG industry
                         Pipeline
-                        Workflow(Using Houdini/Production efficieny)
-                            Expression
-                            Wrangle
-                            OP
-                            Python
+                        Houdini(3D framework to user interdace)
+                        	HDA
+                        		User interface (Type properties)
+                        			Action script(Python)
+	                        Workflow(Using Houdini/Production efficieny)
+	                            Expression
+	                            Wrangle
+	                            OP
+	                            Python
                     3D FX R&D concepts - Harness the power of houdini -> Realize nature/imagination in a efficient way.
                         Data flow -> Controlling data is the key.
                             Data structure
                                 Data types
                                     Low-lev
-                                        float, int, array, vector, matrix, string, dictionary
+                                        float, int, array, vector, matrix, string, dictionary, PointCloud
                                     High-lev
                                         Geometry
 											Attributes
                                     			Context
                                        				Point,vertex,primitive,detail                                            
                                     			Reserved/Custom attributes
-                                        			P,Normal,UVs,V
-                                        Primitive
-                                            Bezier/NURBS
-                                            Volume
-                                                Scalar field(density)
-                                                Sign distance(SDF)
-                                                Vector field
-                                            PointCloud
+                                        			P,Normal,UVs,V,pscale
+                                            Primitive
+                                                Bezier/NURBS
+                                                Volume
+                                                    Scalar field(density)
+                                                    Sign distance(SDF)
+                                                    Vector field           
                             Data manipulation
                                 Network
                                     point,vertex,primitive,detail,volume
                                         normal,uv
                                 Functions
                                     Operater
-                                        SOP, VOP, POP, DOP
+                                        SOP, VOP, POP, DOP(SOP on steriod)
                                     Low-lev
                                         nearpoint, primuv, minpos, length,....
                                     High-lev
@@ -144,7 +150,7 @@ def l3yfx(self):
                                             Expression
                                     Loop
                                     Copy/Instancing
-                                    Ramp
+                                    Ramp/fit
                                     AttributeTransfer
                                         UV technique
                                 Stream(Proceduralism)
@@ -176,6 +182,10 @@ def l3yfx(self):
                             Create digital asset for speeding up workflow.
                             Create tool/plugin for optimize workflow.
                             
+                    3D rigging concepts
+                    	Bones placing
+                    	IK/FK system
+                    	Proxy geometry
                     3D Lighting concepts
                     3D Shading concepts
                         Procedual shading
