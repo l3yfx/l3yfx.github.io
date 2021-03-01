@@ -234,6 +234,9 @@
 		Organic cells
 			VDBAdvect + Solver
 			Mantra rendering Isosurface(SDF volume)
+2021/02/08
+	Project FXBorg
+		Rigging right arm
 20210211
 	Redshift
 		Installzation
@@ -252,4 +255,58 @@
 		POP
 			POP masterclass
 		Volume x Particle
-			Steven knipping volume VI
+			Steven knipping volume VI			
+20210217
+	Vector field particle flow
+20210218
+	Planning fxb_1 project.
+		FxBorg Arm replacemnt
+			-Watercooling tube
+				Straight/Curl
+			-Wireframe mechanic
+			-Lab particles test tube
+20210219
+	Redshift rendering
+		Rop
+			Render setting
+		OBJ spare parameter
+			Attribute
+			Strands
+			Particle
+		Mat vop
+			Shading
+		Lighting
+		Camera
+20210227
+	fxb_2 research
+		Scales_ref
+			polyreduce
+			matchsize
+			remesh
+				Uniform/Adaptive
+			measure
+				measure attribute value and assign to other attribute.
+			clean
+				remove attribute.
+			color sop
+				assign color by attribute color(ramp).
+			Convert
+				Convert geometry type with different Connectivity.
+			Polypath
+				Resample line primitive.
+			Connectivity
+				Assign Connectivity status for each primitive.
+			Edit
+				Edit geometry.
+	Finding Min & Max Attribute Values
+		measure
+		attribute remap
+		detail attribute
+		Sort
+			Sort ptnum with attribute value
+20210301
+	fxb_2 research
+		Sweep
+	Python building
+
+

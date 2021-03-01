@@ -1,5 +1,7 @@
 def l3y(self):
     Essence
+    	Nature
+    Process
     	MasterMind
 	        mushin
 	        Try&error
@@ -15,18 +17,20 @@ def l3y(self):
                     CBS
 	        Reckless
 	            Feel/push the limit.
-	            Used things in the way that are not used to be use.    		
-    Process
-    	Analyze
-    		Breakdown target subject.
-    	Develop
-    		Learn the process.
-    	Refine
-    		BetterFasterStronger.
+	            Used things in the way that are not used to be use.
+	            Start simple, end epic.
+    	# Analyze
+    	# 	Breakdown target subject.
+    	# Develop
+    	# 	Learn the process.
+    	# Refine
+    	# 	BetterFasterStronger.
     Innerbloom
         ElonMusk
         GeorgeHotz
         Olegcricket
+        Panda
+        RebelWay
 
 def l3ysound(self):
     synth() = shape + timbre + pitch
@@ -126,9 +130,6 @@ def l3yfx(self):
                                                 Vector field
                                             PointCloud
                             Data manipulation
-                                Network
-                                    point,vertex,primitive,detail,volume
-                                        normal,uv
                                 Functions
                                     Operater
                                         SOP, VOP, POP, DOP
@@ -152,12 +153,23 @@ def l3yfx(self):
                                     Ramp/fit
                                     AttributeTransfer
                                         UV technique
-                                Stream(Proceduralism)
-                                    Parameter/Channel Referencing
-                                    Parameter/Channel expression
-                                        Hscript expression
-                                        Global/Local variable
-                                        Geo attributes                                    
+                                Network
+	                                data stream(Proceduralism)
+	                                    Parameter/Channel Referencing
+	                                    	ch()
+	                                    Parameter/Channel expression
+	                                    	Global/Local/Geo/Environment variable
+		                                        Expression function
+		                                        		If,abs
+                                        		HScript expression
+                                        			$F / 10
+		                                        Vex expression
+			                                        Global
+			                                        	@Time.@Frame
+		                                        	Local
+		                                        		@ptnum
+			                                        Geo attributes  
+			                                        	@width                          
                             Data organzation    
                                 File system
                                     Cache to disk
@@ -170,7 +182,9 @@ def l3yfx(self):
                                         Motion (Effect based)                                        
                                             Dimensions
                                                 Proceduralism CRUD 3D data
-                                                Simulation Dynamics 3D data 
+                                                Simulation Dynamics 3D data
+                                            Geometry
+                                            Forces
                                         Time (Horizontal based)
                                             Frame control(timeshift)
                                         Layer (Vertical based)
