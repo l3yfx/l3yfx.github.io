@@ -277,3 +277,46 @@
 			Shading
 		Lighting
 		Camera
+20210223,20210224
+	fxb_1
+		Reconstruct arm procedurally.
+			Point deform
+			Attribute transfer		
+20210227
+	fxb_2 research
+		Scales_ref
+			polyreduce
+			matchsize
+			remesh
+				Uniform/Adaptive
+			measure
+				measure attribute value and assign to other attribute.
+			clean
+				remove attribute.
+			color sop
+				assign color by attribute color(ramp).
+			Convert
+				Convert geometry type with different Connectivity.
+			Polypath
+				Resample line primitive.
+			Connectivity
+				Assign Connectivity status for each primitive.
+			Edit
+				Edit geometry.
+	Finding Min & Max Attribute Values
+		measure
+		attribute remap
+		detail attribute
+		Sort
+			Sort ptnum with attribute value
+20210301
+	fxb_2 research
+		Bend
+		Sweep
+		Instancing
+			Normal, UP attributes
+	Python building
+20210302
+	Group
+		Expression in group parameter.
+	Join, Fuse, Polypath
