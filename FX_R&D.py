@@ -52,16 +52,16 @@ class FX_Res
         Rendering
             Mantra rendering Isosurface(SDF volume)
         # VDB_Meshing
-    		VDB vs Houdini standard volume
-    			VDBFrom polygon
-    				Exterior/Interior band -> Data caculation efficiency, "Sparse data structure".
-    				Surface attribute -> transfer attribute to volume data
-    			VDBSmoothSDB -> Smoothing surface with various algorithm.
-    			VDBCombine -> Boolean operation
-    			Houdini standard volume has exclusive toolset/openCL function.
-    		Volume boolean
-    			Volume modeling
-    				Voxel size decrease to half of the smallest feature of geometry.        
+            VDB vs Houdini standard volume
+                VDBFrom polygon
+                    Exterior/Interior band -> Data caculation efficiency, "Sparse data structure".
+                    Surface attribute -> transfer attribute to volume data
+                VDBSmoothSDB -> Smoothing surface with various algorithm.
+                VDBCombine -> Boolean operation
+                Houdini standard volume has exclusive toolset/openCL function.
+            Volume boolean
+                Volume modeling
+                    Voxel size decrease to half of the smallest feature of geometry.        
         # VDB_VectorField
             SDF collision
     def POP
@@ -69,7 +69,7 @@ class FX_Res
     def DOP
 class FX_Dev
     Mindset = hard coded vs tool usage
-	def Growth
+    def Growth
     # 1 way transform.
         Copy&Instance
             #Dev_Crassula
@@ -101,11 +101,52 @@ class FX_Project
             Compositing(Fusion)
             Color grading(Resolve)
             Camera tracking(Fusion)
-        # fxb_1
-            # FxBorg Arm replacemnt
-                # -Watercooling tube
-                    # Straight/Curl
-                # -Wireframe mechanic
-                # -Lab particles test tube
-                ##-Crawling mamba mechanic
+        fxb_1
+            FxBorg Arm replacemnt
+                -Watercooling tube
+                    Straight/Curl
+                -Wireframe mechanic
+                -Lab particles test tube
+                -Hollow geo effect
+            Learn topics
+                -Rigging
+                    Body rigging
+                -Basic redshift setup
+                    Lighting
+                        RSLight,RSDome(HDRI)
+                    Shading
+                        MAT, material builder, OBJ spare parameter
+                    Render setting
+                        Camera,ROP
+                -SOP operation
+                    point deform function
+                    Attribute transfer technique
+                -Volume meshing
+                    vdbfrompolygon
+                    Volume scatter
+                    vdb smooth
+                -Compositing
+                    Davinci resolve image edit.
+                    Colorgrading
+        fxb_2
+            FXborg Leg replacemnt
+                # -Recursive subdivided mesh
+                -Volume SDF flow
+                -Volume trail
+                -Crawling mamba mechanic
+            Learn topics
+                -SOP operation
+                    Sweep
+                    CopytoPoint instancing
+                        @Normal, @Up
+                    Group with pattern
+                -Volume operation
+                        VolumeTrail
+                        SDF flow
+                -POP operation
+                    advectbyvolume
+                # -FOR-LOOP recursive/iterative function uterlization
+                -Advanced Redshift Shading     
+                    Paticle rendering
+                    Strands rendering
                 
