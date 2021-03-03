@@ -1,5 +1,7 @@
 def l3y(self):
     Essence
+    	Nature
+    Process
     	MasterMind
 	        mushin
 	        Try&error
@@ -13,28 +15,32 @@ def l3y(self):
                     # Skateboarding concepts
                     Learn to fail.
                     CBS
-                Start simple, end epic.
 	        Reckless
 	            Feel/push the limit.
-	            Used things in the way that are not used to be use.    		
-    Process
-    	Analyze
-    		Breakdown target subject.
-    	Develop
-    		Learn the process.
-    	Refine
-    		BetterFasterStronger.
+	            Used things in the way that are not used to be use.
+	            Start simple, end epic.
+    	# Analyze
+    	# 	Breakdown target subject.
+    	# Develop
+    	# 	Learn the process.
+    	# Refine
+    	# 	BetterFasterStronger.
+        Project
+            l3yfx
+                FXborg
+            l3ysound
     Innerbloom
         ElonMusk
         GeorgeHotz
         Olegcricket
+        Panda
+        RebelWay
 
 def l3ysound(self):
-    sample() = sound, flow, vibe
     synth() = shape + timbre + pitch
     flow() = motions + movement + tension
     score() = arrangement + layering + mixing
-    l3y_process = sample() + synth() + flow() + score()
+    l3y_process = synth() + flow() + score()
     
     -Essence, process, vibe
     
@@ -112,7 +118,7 @@ def l3yfx(self):
                             Data structure
                                 Data types
                                     Low-lev
-                                        float, int, array, vector, matrix, string, dictionary, PointCloud
+                                        float, int, array, vector, matrix, string, dictionary
                                     High-lev
                                         Geometry
 											Attributes
@@ -120,19 +126,17 @@ def l3yfx(self):
                                        				Point,vertex,primitive,detail                                            
                                     			Reserved/Custom attributes
                                         			P,Normal,UVs,V,pscale
-                                            Primitive
-                                                Bezier/NURBS
-                                                Volume
-                                                    Scalar field(density)
-                                                    Sign distance(SDF)
-                                                    Vector field           
+                                        Primitive
+                                            Bezier/NURBS
+                                            Volume
+                                                Scalar field(density)
+                                                Sign distance(SDF)
+                                                Vector field
+                                            PointCloud
                             Data manipulation
-                                Network
-                                    point,vertex,primitive,detail,volume
-                                        normal,uv
                                 Functions
                                     Operater
-                                        SOP, VOP, POP, DOP(SOP on steriod)
+                                        SOP, VOP, POP, DOP
                                     Low-lev
                                         nearpoint, primuv, minpos, length,....
                                     High-lev
@@ -153,12 +157,23 @@ def l3yfx(self):
                                     Ramp/fit
                                     AttributeTransfer
                                         UV technique
-                                Stream(Proceduralism)
-                                    Parameter/Channel Referencing
-                                    Parameter/Channel expression
-                                        Hscript expression
-                                        Global/Local variable
-                                        Geo attributes                                    
+                                Network
+	                                data stream(Proceduralism)
+	                                    Parameter/Channel Referencing
+	                                    	ch()
+	                                    Parameter/Channel expression
+	                                    	Global/Local/Geo/Environment variable
+		                                        Expression function
+		                                        		If,abs
+                                        		HScript expression
+                                        			$F / 10
+		                                        Vex expression
+			                                        Global
+			                                        	@Time.@Frame
+		                                        	Local
+		                                        		@ptnum
+			                                        Geo attributes  
+			                                        	@width                          
                             Data organzation    
                                 File system
                                     Cache to disk
@@ -171,7 +186,9 @@ def l3yfx(self):
                                         Motion (Effect based)                                        
                                             Dimensions
                                                 Proceduralism CRUD 3D data
-                                                Simulation Dynamics 3D data 
+                                                Simulation Dynamics 3D data
+                                            Geometry
+                                            Forces
                                         Time (Horizontal based)
                                             Frame control(timeshift)
                                         Layer (Vertical based)
