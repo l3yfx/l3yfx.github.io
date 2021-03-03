@@ -1,0 +1,18 @@
+////SOP
+	//Geometry manipulation
+		Join
+			Join primitives to one primitive.
+		Fuse
+			Join points.
+		Polypath
+	//Attribute manipulation
+		Finding Min & Max Attribute Values
+			measure
+			attribute remap
+			detail attribute
+		Sort
+			Sort ptnum with attribute value
+
+////Data stream
+	//Parameter expression
+		Group sop input expression in group colum.
