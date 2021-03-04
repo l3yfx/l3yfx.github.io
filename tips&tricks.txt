@@ -5,6 +5,8 @@
 		Fuse
 			Join points.
 		Polypath
+		Copytopoint
+			Instancing with for-loop for attribute variation.
 	//Attribute manipulation
 		Finding Min & Max Attribute Values
 			measure
@@ -16,3 +18,10 @@
 ////Data stream
 	//Parameter expression
 		Group sop input expression in group colum.
+////Render
+	//Redshift
+		//Render options
+			Progressive rendering
+				fast feedback when shaders, meshes or lights are edited.
+			Bucket mode 
+				Recommended instead of progressive mode for final renders.
