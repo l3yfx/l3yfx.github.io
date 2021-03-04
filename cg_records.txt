@@ -320,3 +320,60 @@
 	Group
 		Expression in group parameter.
 	Join, Fuse, Polypath
+20210304
+	FX path
+		FXBorg
+			Specific FX
+				SOP
+				SOP + Proceduralism
+				SOP + DOP
+			Shading
+			Rendering
+			Compositing
+	Compositing
+		Camera tracking
+			movement matching
+		Rotoscoping
+			Maskking objects
+		Look-matching
+			Lighting
+				Shadow
+			Color correction
+				Color matching
+			Depth of field
+				Focus point
+			Grains
+				Film grains/noise
+	Deconstruct POP network
+		Emitter
+			Birth
+				Impulse
+				Constant
+			Life
+			Emission attribute
+		Force
+			Attract
+			Interact
+			Wind/Force
+	Deconstruct DOP network
+		object, solver and force.
+		Sub-stepping
+	Redshift
+		Strand/Particle render
+		Progressive vs Bucket mode
+			Progressive rendering
+				fast feedback when shaders, meshes or lights are edited.
+			Bucket mode 
+				Recommended instead of progressive mode for final renders.
+		Fixed rate vs adaptive sampling
+			Fixed rate
+				Shooting the same number of primary rays per pixel
+			adaptive sampling
+				Unified sampling
+					Detects the parts of the image that are noisy/jaggy and automatically adjusts the number of primary rays for each pixel. This can speed up rendering considerably.
+	Daily practice
+		fxb1
+			Rendering resolution
+			Compositing concepts apply
+		fxb2
+			Particles/Strand(Volume trail) render
