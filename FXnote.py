@@ -136,7 +136,7 @@ def l3yfx(self):
                             Data manipulation
                                 Functions
                                     Operater
-                                        SOP, VOP, POP, DOP
+                                        SOP, VOP, POP, DOP(Solver)
                                     Low-lev
                                         nearpoint, primuv, minpos, length,....
                                     High-lev
@@ -161,6 +161,7 @@ def l3yfx(self):
 	                                data stream(Proceduralism)
 	                                    Parameter/Channel Referencing
 	                                    	ch()
+                                            point(), detail()
 	                                    Parameter/Channel expression
 	                                    	Global/Local/Geo/Environment variable
 		                                        Expression function
@@ -187,8 +188,11 @@ def l3yfx(self):
                                             Dimensions
                                                 Proceduralism CRUD 3D data
                                                 Simulation Dynamics 3D data
-                                            Geometry
-                                            Forces
+                                            Context
+                                            # Building blocks
+                                                SOP
+                                                Proceduralism
+                                                DOP
                                         Time (Horizontal based)
                                             Frame control(timeshift)
                                         Layer (Vertical based)
@@ -216,7 +220,20 @@ def l3yfx(self):
                             Bump
                         White papers
                     3D Rendering concepts
-                    3D Compositing concepts                             
+                    3D Compositing concepts 
+                        Camera tracking
+                            movement matching
+                        Rotoscoping
+                            Maskking objects
+                        Look-matching
+                            Lighting
+                                Shadow
+                            Color correction
+                                Color matching
+                            Depth of field
+                                Focus point
+                            Grains
+                                Film grains/noise
             # def FX R&D
             	# FX = CS + R&D + Look_dev
                 # FX R&D(Practice)
