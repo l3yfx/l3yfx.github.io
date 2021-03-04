@@ -65,8 +65,34 @@ class FX_Res
         # VDB_VectorField
             SDF collision
     def POP
-        
+		Emitter
+			Birth
+				Impulse
+				Constant
+			Life
+			Emission attribute
+		Force
+			Attract
+			Interact
+			Wind/Force        
     def DOP
+        object, solver and force.
+        
+class Render_Res
+    def redshift
+        Progressive vs Bucket mode
+			Progressive rendering
+				fast feedback when shaders, meshes or lights are edited.
+			Bucket mode 
+				Recommended instead of progressive mode for final renders.
+		Fixed rate vs adaptive sampling
+			Fixed rate
+				Shooting the same number of primary rays per pixel
+			adaptive sampling
+				Unified sampling
+					Detects the parts of the image that are noisy/jaggy and automatically adjusts the number of primary rays for each pixel. This can speed up rendering considerably.
+		
+
 class FX_Dev
     Mindset = hard coded vs tool usage
     def Growth
