@@ -377,3 +377,28 @@
 			Compositing concepts apply
 		fxb2
 			Particles/Strand(Volume trail) render
+20210305
+		Entagma
+			Particle 101
+				Scatter technique
+				flownoise growth technique
+				POP density
+				RS rendering concepts
+					Blend
+					Roughness texture
+					bump
+				DisplaceAlongNormal
+				Surface ramdom velocity
+				Point velocity to POP
+				Double cross product (normal(vector))
+					xyzdist
+				***POP solver inputs
+				VOP inputs
+				***Constraint
+			mystique-transformation
+				Point deform concepts
+				Force with minpos function to make particles flow on surface.
+	Daily practice
+		Redshift
+			RS Texture + Triplanar
+			Bump
