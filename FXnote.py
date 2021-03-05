@@ -4,6 +4,7 @@ def l3y(self):
     Process
     	MasterMind
 	        mushin
+                Imperfection
 	        Try&error
 	            Problem solving
 	                Breakdown challenge
@@ -134,20 +135,23 @@ def l3yfx(self):
                                                 Vector field
                                             PointCloud
                             Data manipulation
-                                Functions
+                                Caculation
+                                    Math
+                                        Cross product
+                                Functions                                       
                                     Operater
                                         SOP, VOP, POP, DOP(Solver)
                                     Low-lev
                                         nearpoint, primuv, minpos, length,....
                                     High-lev
                                         Particle, pyro, flip, vellum, SDF,....
-                                    Custom fuction
-                                        Sorting
-                                        Filtering
                                     Noise
                                         Curlnoise, turbulentnoise, voronoise,....
+                                    Custom function
+                                        Sorting
+                                        Filtering                                    
                                 Operation
-                                    Conditional
+                                    Conditional(Constraint)
                                         Grouping
                                             Selection
                                             Pattern
