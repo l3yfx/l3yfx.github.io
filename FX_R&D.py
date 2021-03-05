@@ -65,16 +65,28 @@ class FX_Res
         # VDB_VectorField
             SDF collision
     def POP
-		Emitter
+		Sorce(Emitter)
 			Birth
 				Impulse
 				Constant
 			Life
 			Emission attribute
-		Force
-			Attract
-			Interact
-			Wind/Force        
+                velocity
+        Object
+		Operation(Force)
+            pre-solve
+            post-solve
+                Attract
+                Interact
+                Wind/Force
+                Drag
+                POP kill
+                POP Sprite
+                POP VOP
+                Group
+                Color
+        Solver
+
     def DOP
         object, solver and force.
         
@@ -175,4 +187,8 @@ class FX_Project
                 -Advanced Redshift Shading     
                     Paticle rendering
                     Strands rendering
+                    Apply texture/bump
+        fxb_3
+            FXborg arm replacement
+                -Nano tech
                 
