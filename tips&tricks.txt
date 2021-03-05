@@ -7,6 +7,12 @@
 		Polypath
 		Copytopoint
 			Instancing with for-loop for attribute variation.
+		Point deform
+			Edit animated obj with boolean function.
+		Scatter
+			relax interation -> unified scatter position
+			Scatter with @density.
+			Force total count vs density scale
 	//Attribute manipulation
 		Finding Min & Max Attribute Values
 			measure
@@ -14,7 +20,14 @@
 			detail attribute
 		Sort
 			Sort ptnum with attribute value
-
+		Normal manipulation
+			Cross product vector
+////DOP
+	//POP
+		SOP solver in POP for integrating SOP operatuion.
+		Force with minpos function to make particles flow on surface.
+	//Constraint
+		
 ////Data stream
 	//Parameter expression
 		Group sop input expression in group colum.
@@ -25,3 +38,14 @@
 				fast feedback when shaders, meshes or lights are edited.
 			Bucket mode 
 				Recommended instead of progressive mode for final renders.
+		//Color data
+			"Changing color in shader instead of geometry level.".
+			Output black to white ramp data to RS material then use RSRemap(Source to Alt) to define colors.
+		//Apply texture
+			texture.com
+			RStexture
+			Triplanar -> Map texture to obj in 3 directions.
+		//Apply Bump
+			Bump map
+		//Layer material
+			Material blend with top to down layers.
