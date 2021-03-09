@@ -49,3 +49,15 @@
 			Bump map
 		//Layer material
 			Material blend with top to down layers.
+////Nice Rendering
+		Composting
+		Lighting
+		Color
+		Depth of field
+////Post-processing
+	Color matching
+		Element grade
+		Scene grade
+	Depth of field
+		Element focus
+		Scene focus			
