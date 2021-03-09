@@ -172,6 +172,14 @@ class FX_Project
                 -Volume SDF flow
                 -Volume trail
                 -Crawling mamba mechanic
+            Scenes
+                Still
+                    SDFlowWire + Python
+                        Close shot x2
+                        vfx shot x1
+                Anima
+                    SDFFlowParticle(Surface) + SDFFlowParticle(Around) + Python
+                        vfx shot x1
             Learn topics
                 -SOP operation
                     Sweep
@@ -191,4 +199,4 @@ class FX_Project
         fxb_3
             FXborg arm replacement
                 -Nano tech
-                
+                -Cmex
