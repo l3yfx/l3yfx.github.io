@@ -380,9 +380,10 @@
 20210305
 		Entagma
 			Particle 101
-				Scatter technique
-				flownoise growth technique
-				POP density
+				Particle flow on surface
+					Scatter technique
+					flownoise growth technique
+					POP density
 				RS rendering concepts
 					Blend
 					Roughness texture
@@ -402,3 +403,45 @@
 		Redshift
 			RS Texture + Triplanar
 			Bump
+20210306, 20210307
+	FXB_1
+		Post processing
+			Redshift render
+				Composting
+				Depth of field
+				Lighting
+				Color
+			Fusion Composting
+				Color grading
+					Element grade
+					Scene grade
+				Depth of field
+					Element focus
+					Scene focus
+20210308
+	FXB_2 scenes design
+		Still
+			SDFlowWire + Python
+				Close shot x2
+				vfx shot x1 - 1PV jordan shot.
+		Anima
+			SDFFlowParticle(Surface) + SDFFlowParticle(Around) + Python
+				vfx shot x1 - 3PV jordan shot.
+	Entagma Particles 101
+		POP replicate
+		POP surve force
+20210309
+	FXB_3 fx design
+		NanoTech(Particle)
+		CMEX		
+	FXB ideas		
+		NanoTech(Surface)		
+		Crassula
+		Vellum cloth
+		MagicDome
+		Lighting
+		Smoke
+		Fluid
+		Fire/Pyro/Smoke
+		Destruction
+		
