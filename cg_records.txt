@@ -444,4 +444,13 @@
 		Fluid
 		Fire/Pyro/Smoke
 		Destruction
+20210310
+	FXB_3
+		NoiseOffset
+		UVXform + POP
+20210311
+	TIMJ escape tutorial
+		MaskFromGeometry
+		Polyexpand
+		PolyBevel -> smooth hard edge for better rendering.
 		
