@@ -88,7 +88,9 @@ class FX_Res
         Solver
 
     def DOP
-        object, solver and force.
+        object, source, solver and force.
+        
+        relationships (Adjust relationships to optimize the simulation)
         
 class Render_Res
     def redshift
@@ -107,28 +109,32 @@ class Render_Res
 
 class FX_Dev
     Mindset = hard coded vs tool usage
-    def Growth
+    def SOP
+        Surface attribute manipulation algorithms.
+            UVXform
+            NoiseOffset
+    # def Growth
     # 1 way transform.
-        Copy&Instance
-            #Dev_Crassula
-        Noise + @P transform
-            #Dev_SnakeIsland
-        Move & Trail
-            #Project_NikeFlyknit
-        VDB modeling/advecting
-            #Dev_Organic
-    def Morph
+        # Copy&Instance
+            # Dev_Crassula
+        # Noise + @P transform
+            # Dev_SnakeIsland
+        # Move & Trail
+            # Project_NikeFlyknit
+        # VDB modeling/advecting
+            # Dev_Organic
+    # def Morph
     # 2 ways transform.          
-        UV xform 
-                #Dev_LineMorph
-                #Dev_Venus
-        @P mix function
-            #Dev_Knitting
-    def Magic
-        Vector field Vel & SDF
-            #Dev_MagicFluid
-        POP Force
-            #Dev_Cradence
+        # UV xform 
+                # Dev_LineMorph
+                # Dev_Venus
+        # @P mix function
+            # Dev_Knitting
+    # def Magic
+        # Vector field Vel & SDF
+            # Dev_MagicFluid
+        # POP Force
+            # Dev_Cradence
 
 class FX_Project
     def FxBorg
@@ -200,3 +206,9 @@ class FX_Project
             FXborg arm replacement
                 -Nano tech
                 -Cmex
+            Learn topics
+                -SOP operation
+                    1. Rmesh with @targetmesgsize
+                    2. Walkby trigger
+                    3. Extrude scale variation
+                    4. Extrude direction variatio
