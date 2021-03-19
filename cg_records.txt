@@ -431,7 +431,7 @@
 		POP replicate
 		POP surve force
 20210309
-	FXB_3 fx design
+	FXB_3,4 fx design
 		NanoTech(Particle)
 		CMEX		
 	FXB ideas		
@@ -453,4 +453,53 @@
 		MaskFromGeometry
 		Polyexpand
 		PolyBevel -> smooth hard edge for better rendering.
-		
+20210313
+	Rmesh with @targetmesgsize
+20210314
+	Polyextrude with point @N direction.
+20210315
+	FXB_3
+		NanoTech
+			1. Edge scatter POP
+			2. XForm surface attribute
+			3. RS material blending
+	FXB_4
+		Cmex polygon extrude
+			1. Walkby trigger
+			2. Extrude scale variation
+			3. Extrude direction variation
+20210316
+	FXB_5
+		Crassula weapon
+20210317		
+	Entagma Intro to DOP/POP
+		1. Switch node to control which geo presenting base on frame number.($F ==1)
+		2. Measure curvature to displace along normal
+	Daily practice
+		1. Instancing with @N and @up.
+20210318
+	Entagma vellum basic
+		vellum constraint
+			vellum object
+			vellum collider
+		vellum solver
+			Substeps
+			Constraint iteration
+		vellum postprocess
+		edgefracture
+		Detangle
+		pointprim
+20210319
+	Vex for algorithmic design
+		Solver basic
+			Rotate with matrix in vex
+			Group constraint inside solver
+			Vector field flow on suface with noise.
+	Street VFX (SVFX)
+		Credance
+		Building fx
+		Object across building
+	Lego vfx
+	Davinci resolve
+		color grading
+	kiryha -> VEX for artist
