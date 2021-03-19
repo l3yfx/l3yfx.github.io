@@ -1,3 +1,70 @@
+def l3y(self):
+    Essence
+    	Nature
+    Process
+    	MasterMind
+	        mushin
+                Imperfection
+	        Try&error
+	            Problem solving
+	                Breakdown challenge
+	                    Making question
+	                        Solved
+	                    Try/Debug
+	                        Solved
+                Error handling
+                    # Skateboarding concepts
+                    Learn to fail.
+                    CBS
+	        Reckless
+	            Feel/push the limit.
+	            Used things in the way that are not used to be use.
+	            Start simple, end epic.
+    	# Analyze
+    	# 	Breakdown target subject.
+    	# Develop
+    	# 	Learn the process.
+    	# Refine
+    	# 	BetterFasterStronger.
+        Project
+            l3yfx
+                FXborg
+            l3ysound
+    Innerbloom
+        ElonMusk
+        GeorgeHotz
+        Olegcricket
+        Panda
+        RebelWay
+
+def l3ysound(self):
+    synth() = shape + timbre + pitch
+    flow() = motions + movement + tension
+    score() = arrangement + layering + mixing
+    l3y_process = synth() + flow() + score()
+    
+    -Essence, process, vibe
+    
+    # can be feel but not heard.
+    # from rough/skeleton to solid fine tune.
+    # ability to forsee.
+    # find the process.
+def l3yhack(self):
+    # cs
+    cs() = computer, program, OS
+    computer = Processor(instruction), RAM(data)
+    program = "input -> system -> output"
+    # coding
+    coding() = programming + framework 
+    programming = programming_language, logic, algorithm/data_structure
+    programming_language = syntax, library, OOP(data, control_flow, organzation)
+    # ps
+    problem_solving() = framing, realization
+    
+    hack_process = cs() + coding() + problem_solving()
+    
+    garbageCollection(?)
+    
 def l3yfx(self):
     3D_Concepts = CG_knowledge, software, workflow        
     3D = Modeling, animation, texture, lighting, rendering
@@ -33,6 +100,7 @@ def l3yfx(self):
                                 Lighting
                                 Rendering
                                 Compositing
+
             Process(Practice)    
                 def Realization of 3D Computer graphic/theory
                     3D language/framwork/software
@@ -119,8 +187,7 @@ def l3yfx(self):
                                 Pipeline
                         Algorithmic design
                             Constructing data flow for specific fx in a algorithmic way.
-                                    Utilize each data structures features
-                                    Write algorithm to achieve result.
+                                    Utilize each data structures features to write algorithm for specific fx.
                                         Motion (Effect based)                                        
                                             Dimensions
                                                 Proceduralism CRUD 3D data
@@ -128,8 +195,11 @@ def l3yfx(self):
                                             Context
                                             # Building blocks
                                                 SOP
-                                                Proceduralism
+                                                    Surface operation
+                                                        Geometry computation
+                                                    Attribute operation
                                                 DOP
+                                                    Dynamics operation
                                         Time (Horizontal based)
                                             Frame control(timeshift)
                                         Layer (Vertical based)
