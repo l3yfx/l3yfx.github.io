@@ -503,3 +503,67 @@
 	Davinci resolve
 		color grading
 	kiryha -> VEX for artist
+20210320, 20210321
+	FXB_3
+		Vellum cloth
+		DS colorgrading/compositing
+		Final rendering
+	FX TD porfolio
+		Website
+20210323
+	Vellum cloth
+		Planar Patch
+		Cloth Constraint
+		Attach to Geometry Constraint SOP
+			show houdini hack
+		Stretch/Rest lengh scale -> increase folds.
+		Paneling
+			stitch
+			weld
+		Draping
+	SOP
+		sculpt
+		ConvertLine
+20210324
+	Time/Frame
+		Timewarp
+		SequenceBlend
+	SOP
+		Peak -> displace point position along surface.
+		GroupRename -> front* to back*
+	Vellum R&D
+		More points = more constraints = more constraint iterations/substeps for the constraints to reach the required stiffness.
+	Daily target
+		#Vellum Drape -> Adjust tshirt mesh resolution / vellum cloth constraint / vellum drape to see if oversize effect works.
+		Jeff's vellum drape workflow
+			Fuse Sop
+			More point to be curve sampled
+			Output seam group(Planar Patch)
+20210325
+	OSL
+	Vincent Schwenk
+		SoftBody
+		Redshift rendering
+	CG Career review
+		3D studio
+			Product ads				
+				Simon holdmedal
+				Axiso
+				Ben watts
+		film studio
+			FX TD
+				Steven knipping
+				Johnny farmfield
+		CG tech
+			Ken museth - Simulation technology
+20210326
+	Steven knipping
+		Interview with Kirill Tokarev
+			"the problem-solving aspects of FX ended up interesting me more."
+	FX Stones
+		SOP
+		POP
+		DOP-Vellum
+		DOP-Pyro
+		DOP-Fluid
+		DOP-RBD-Destruction
