@@ -204,11 +204,21 @@ class FX_Project
                     Apply texture/bump
         fxb_3
             FXborg arm replacement
-                -Nano tech
-                -Cmex
+                -Nano tech(Paticle)
             Learn topics
                 -SOP operation
-                    1. Rmesh with @targetmesgsize
-                    2. Walkby trigger
-                    3. Extrude scale variation
-                    4. Extrude direction variatio
+                    1. Edge scatter POP
+                    2. XForm surface attribute
+                Redshift
+                    1. RS material blending
+        fxb_4
+            FXborg leg replacement
+                -Cmex
+            Learn topics
+                1. Rmesh with @targetmesgsize
+                2. Walkby trigger
+                3. Extrude scale variation
+                4. Extrude direction variatio
+        fxb_5
+            FXborg hand(palm) replacement
+                -Crassula
