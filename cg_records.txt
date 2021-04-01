@@ -567,3 +567,70 @@
 		DOP-Pyro
 		DOP-Fluid
 		DOP-RBD-Destruction
+20210328
+	Redshift
+		Max sample to decrease noise.
+		Coating
+	Entagma silly pillow
+		UVMapping
+		Maxonnoise
+		Apply lut
+		Redsift camera setting(ISO, exposure, saturation,..)
+		PostFx
+20210329, 20210330
+	Redshift
+		Documentaion
+			Material
+			Maxonnoise
+			Sheen
+				Roughness
+					higher values result in a softer look.
+				Sample
+					The higher the sheen's roughness the softer the reflection will be and will need more samples to get a clean "grain-free" result.
+				"The sheen effect can be used to simulate a soft backscatter effect commonly seen on fabrics like velvet or satin."
+	Vincent Schwenk patreon
+		1. Lighting
+			HDRI
+				Canada montreal pxxx bathroom
+			RSlight
+		2. Subdivide to high poly for smooth looking
+			RedshiftObj-Geometry-Overwrite
+		3. Camera setting
+			ISO, exposure
+			lens angle for dramatic look.
+		4. Texture
+			Bump map
+				tangent surface normal 
+				-overall -bump input
+			Normal
+			Roughness
+			Triplanar -> reference mode
+			Fabric texture
+				enable gamma overwrite
+			Texture displacement
+	Daily target
+		Redshift
+			Sheen effect for soft cloth rendering
+			Fabric texture
+20210331
+	Entagma lighting
+		RSlightdome(HDRI)
+			Intensity
+			Saturation
+		Rslight
+			Color tint
+			Area size
+			Look At
+			Object selection
+		Redshift camera
+			Photographic exposure
+			PoseFx
+		Rop setting
+			Global illumination GI bounce
+		
+		3 styles of lighting
+	Target
+		Rendering
+			Bump map
+			Displacement
+			Lighting
