@@ -86,7 +86,6 @@ class FX_Res
                 Group
                 Color
         Solver
-
     def DOP
         object, source, solver and force.
         
