@@ -47,13 +47,42 @@
 			"Changing color in shader instead of geometry level.".
 			Output black to white ramp data to RS material then use RSRemap(Source to Alt) to define colors.
 		//Apply texture
-			texture.com
 			RStexture
+			color, bump, displace, roughness			
 			Triplanar -> Map texture to obj in 3 directions.
-		//Apply Bump
-			Bump map
 		//Layer material
 			Material blend with top to down layers.
+		//Camera setting
+			Photographic Exposure
+				overExposure, ISO
+			PostFx
+				Lut, Streak, Bloom
+			ROP setting
+				Max sample
+				Global illumination
+				GI bounce
+		//Lightng
+			RSlightDome_HDRI
+				intensity
+				saturation
+			RSlight
+				Scale down for streak
+				light color
+				LookAt
+				ObjecctSelection
+				AreaSpread
+	//Redshift workflow
+		Shading
+			material, texture
+		Lighting
+			HDRI
+			rslight
+		Camera setting
+			Redshift camera
+			PoseFX
+		ROP setting
+			Max sample
+			Global illumination
 ////Nice Rendering
 		Composting
 		Lighting
