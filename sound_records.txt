@@ -1,0 +1,14 @@
+20210441
+	Growl bass by Icon collective
+		Modulation
+			LFO1 to volume
+			Static filter
+			LFO2 to wavetable
+		Automation
+			Pitch bending
+		Post processing
+			Phaser
+			EQ type
+			OTT
+	Daily target
+		Serum bass
