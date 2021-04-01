@@ -38,17 +38,28 @@ def l3y(self):
         RebelWay
 
 def l3ysound(self):
-    synth() = shape + timbre + pitch
-    flow() = motions + movement + tension
-    score() = arrangement + layering + mixing
-    l3y_process = synth() + flow() + score()
-    
     -Essence, process, vibe
+
+    Essence
+        The same places  
+    Process
+        synth() = shape + timbre + pitch 
+            Modulation + Automation + postProcessing
+        flow() = motions + movement + tension
+        score() = arrangement + layering + mixing
+            Transient, parallel processing
+        process = synth() + flow() + score()
+    Vibe
     
+    # Destroy and recreate.(Bouncing clip)
     # can be feel but not heard.
     # from rough/skeleton to solid fine tune.
     # ability to forsee.
     # find the process.
+    # If the design takes too long to build, it's a bad design.
+
+    Process
+        Skrillex redlips, trapdrum, kamakazi, panda
 def l3yhack(self):
     # cs
     cs() = computer, program, OS
