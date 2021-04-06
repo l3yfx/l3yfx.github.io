@@ -12,3 +12,37 @@
 			OTT
 	Daily target
 		Serum bass
+		
+20210402~20210405
+	Koan sound tutorial
+		Simpler usage
+		Bass design
+			Frequency splittering/layering
+			Fx splittering/layering
+			Fx processing
+
+20210406
+	Koan sound tutorial
+		Snare building
+		Foley sound
+			ableton beats warp mode
+	Sound design
+		Timbre, shape, pitch
+		Dope sounds
+			Signal(Frequency) splitting/layering
+				Fx splitting/layering
+					Fx processing
+						Fx
+							Granular, reverb, grains
+				Signal flow
+					Automation
+					Push & limit
+			Automation
+			Motions around beats
+	Flow design
+		Sound & beats
+		Motions, movement, tension
+		Dope flow
+			Hard beats
+			Transition
+			
