@@ -39,7 +39,12 @@ def l3y(self):
 
 def l3ysound(self):
     -Essence, process, vibe
-
+    # from rough/skeleton to solid fine tune.
+    # Destroy and recreate.(Bouncing clip)
+    # can be feel but not heard.
+    # ability to forsee.
+    # find the process.
+    # If the design takes too long to build, it's a bad design.
     Essence
         The same places  
     Process
@@ -48,18 +53,50 @@ def l3ysound(self):
         flow() = motions + movement + tension
         score() = arrangement + layering + mixing
             Transient, parallel processing
-        process = synth() + flow() + score()
+        process = synth() + flow() + score() + sample()
+        
+        Sampled
+            Sound sample
+                ex. foley, bass
+            Movement sample
+                ex. wall fuck
+                ex. dope beats
+        Sound design(Synth)
+            Timbre, shape, pitch
+            Dope sounds
+                Signal(Frequency, stereoImage) splitting/layering
+                    Fx splitting/layering
+                        Fx processing
+                            Fx
+                                Granular, reverb, grains
+                                Combination
+                    Signal flow
+                        Automation
+                        Push & limit
+                Automation
+                Motions around beats
+        Flow design
+            Motions, movement, tension
+            # Sound & beats
+            Motion
+                MIDI
+                Synth shape
+                Fx Automation                    
+                    Setup automation, then put fx on it.
+                Transient
+            Movement
+                Horiontal Build/Layer around elements. Ex. Bass note based on drum beats.
+                Transition
+            Tension
+                Vertical Build/Layer around elements. Ex. Add noise to fill spectrum.
+            Dope flow
+                BPM scope
+                Catchy beats(Flow driven)
+                Sharp transition    
     Vibe
-    
-    # Destroy and recreate.(Bouncing clip)
-    # can be feel but not heard.
-    # from rough/skeleton to solid fine tune.
-    # ability to forsee.
-    # find the process.
-    # If the design takes too long to build, it's a bad design.
-
-    Process
+    Inspired
         Skrillex redlips, trapdrum, kamakazi, panda
+        Flume  Daze2200, wallfuck
 def l3yhack(self):
     # cs
     cs() = computer, program, OS
