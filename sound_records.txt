@@ -34,6 +34,7 @@
 					Fx processing
 						Fx
 							Granular, reverb, grains
+							Combination
 				Signal flow
 					Automation
 					Push & limit
@@ -45,4 +46,28 @@
 		Dope flow
 			Hard beats
 			Transition
-			
+20210407
+	From rough/skeleton to solid fine tune.
+	Flow
+		Motion
+			Notes
+			Synth shape
+			Fx Automation
+		Movement structure
+			BPM
+			Build around elements. Ex. Bass note/Automation based on drum beats.
+				Setup automation, then put fx on it.
+	Try&Error
+		Balance between hardcoded and random flow
+20210408
+	Getter livestream
+		Practice session
+			Practice drums
+			Practice sampling
+			Practice handling sammples
+			Mixing it all to sound good
+		Convert audio to harmony midi
+		Learning from remaking
+20210409
+	Smooth Transition!!!
+		Start grooving with drums
