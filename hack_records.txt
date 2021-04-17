@@ -1,0 +1,111 @@
+20210413
+	Python
+		Syntax
+		Library
+		Control flow
+		Functions
+	Vim
+		Normal mode
+			Movement
+				hjkl
+				w,b
+				New line and insert
+					o
+				Next character and insert
+					a
+				Goto begining/end and insert
+					Shift + i
+					Shift + a
+			Operation
+				(Shift) + operation + (movement)
+					Yank
+						yy "register"
+						y + hjkl
+					Delete + yank
+						dd
+						d + hjkl
+					Paste
+						p
+				Undo
+					u
+				Save
+					:w(q)
+			Selection
+				Visual line mode
+					shift_v + jk 
+						y,d,p
+				v + w
+					y,d,p
+		Insert mode
+			Leave insert mode
+				esc, ctrl_c, ctrl_[
+		Comment mode
+			Search
+				/ + keywords + enter, n/shift_n to move
+				* to search after cursor words, # reverse
+		.vimrc
+			"set paste" reset some setting.(https://stackoverflow.com/questions/37957844/set-expandtab-in-vimrc-not-taking-effect/37962622#37962622)
+			tabstop, space, shiftwidth
+20210414
+	Learn
+		Determine what things need to learn at certain phase to get maximun learning.
+	Python
+		Concepts
+			Library(Module, package)
+			Test framework
+		Topic
+			Environment setup
+				pip
+			Coding
+				Keywords
+				Scope
+				Namespace
+				Import
+					(https://medium.com/pyladies-taiwan/python-%E7%9A%84-import-%E9%99%B7%E9%98%B1-3538e74f57e3)
+						absolute import sv relatively import
+						circular import
+					Interpreter
+						__names__
+						__init__ (https://stackoverflow.com/questions/625083/what-init-and-self-do-in-python)
+					Module vs package
+				Module
+					itertool
+				Functions
+					Input & Output
+						map(fun, iter)
+						Text processing
+				Data structure
+					Collection data types (arrays)
+						List, ordered and changeable. Allows duplicate members.
+						Tuple, ordered and unchangeable. Allows duplicate members.
+						Set, unordered and unindexed. No duplicate members.
+						Dictionary, ordered* and changeable. No duplicate members.
+		PEPs
+			Learn from pros
+20210415
+	Daily practice
+		Convert str_list to int_list
+			for loop
+			list comprehension
+			map***
+		print(a, end = " ")
+		Basic syntax
+			Identifiers
+				Class names start with an uppercase letter. All other identifiers start with a lowercase letter.
+				Starting an identifier with a single leading underscore indicates that the identifier is private.
+				Starting an identifier with two leading underscores indicates a strongly private identifier.
+				If the identifier also ends with two trailing underscores, the identifier is a language-defined special name.
+			Multi-Line Statements
+				Line continuation character, + \
+		Floor division
+		Watch out Data type when pass reference!!!
+		Tuple assign
+		Sorted list
+20210417
+	Join, print with list comprehension
+	learning steps:
+		Python
+			Syntax
+			Data type
+			Defined function
+		Problem solving
