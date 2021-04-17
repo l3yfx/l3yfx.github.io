@@ -1,0 +1,66 @@
+Python	
+	Environment setup
+		pip
+	Coding
+		Elegant, pythonic and recommended method
+			Built-in Keywords
+				Operator
+					Arithmetic Operators
+					Comparison (Relational) Operators
+					Assignment Operators
+					Logical Operators
+					Bitwise Operators
+					Membership Operators
+					Identity Operators
+					**Unpack operator
+				Statement
+					return
+					yield
+			Scope
+				Namespace
+			Data structure
+				Standard
+					Number
+					String
+					Collection data types (arrays)
+						List, ordered and changeable. Allows duplicate members.
+							Sorted()
+						Tuple, ordered and unchangeable. Allows duplicate members. (Read only list)
+							Assign
+								x,y,z = tuple("1", "2", "3")
+						Set, unordered and unindexed. No duplicate members.
+						Dictionary, ordered* and changeable. No duplicate members.
+				Casting
+			Control flow
+			Functions
+				Input & Output
+					
+				Generator(https://www.geeksforgeeks.org/generators-in-python/)
+				Built-in function
+					iter()
+					map(fun, iter)
+					len(), range(), 
+					Text processing
+						split(), replace()
+						formate()
+			Module
+				Import
+					(https://medium.com/pyladies-taiwan/python-%E7%9A%84-import-%E9%99%B7%E9%98%B1-3538e74f57e3)
+					absolute import sv relatively import
+					circular import				
+					Module vs package
+				itertool
+			Interpreter
+				__names__
+				__init__ (https://stackoverflow.com/questions/625083/what-init-and-self-do-in-python)
+
+			Usage
+				Text processing
+				Stream processing
+	PEPs
+		Learn from pros
+Problem solving
+	Input
+		Constraints
+	Output
+		Constraints
